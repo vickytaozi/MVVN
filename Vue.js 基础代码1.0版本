@@ -1,0 +1,48 @@
+官网：http://cn.vuejs.org/v2/guide/installation.html
+中国人发明的，有很多中国文档
+
+特点：html模板+json数据，再创建一个Vue实例
+数据驱动：自动追踪依赖的模板表达式和计算属性
+组件化：用解耦、可复用的组件来构造界面
+轻量： ---24kb  无依赖
+快速：精确有效的异步批量DOM更新
+
+好处：
+可扩展的数据绑定机制
+原生对象即模型
+简洁明了的API
+组件化UI构建
+多个轻量库搭配使用
+
+
+
+安装：
+在项目中引人vue.js
+1.网上下载
+2.npm install vue(默认下载2.0版本)最新版本
+
+跟angular比较：
+ 相对angular，vue源码比较轻，所以它是轻量级，它比angular 性能好些
+ 缺点：没有angular功能齐全，angular封装了ajax （$http）
+
+3.new Vue()：
+用Vue 创建一个构造器，往Vue构造器传递一个对象，这个对象有el属性和data属性
+el：节点相当于angular控制器，如果el：'#demo',就控制所有标签
+
+
+4.表达式{{}}，支持渲染各种类型的数据，里面支持字符串的拼接，算术运算，三元表达式，
+在标签的属性里面放表达式
+<p name =  ''{{name}}''></p>
+
+ 在里面放函数：绑定函数
+<button  @click = ''test()''></button>
+ 在构造器里面增加一个methods属性，传对象进去
+Methods:{
+	Test:function(){
+		
+	}
+}
+
+5.双向数据绑定
+ <input v-model = ''name''>
+<p>{{name}}</p>
