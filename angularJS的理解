@@ -1,0 +1,74 @@
+核心：为了复用
+缺点：不利于SEO，性能不太好
+
+表达式{{}}：双向数据绑定
+Ng-model  
+接收数据标签：
+ input/textarea/select
+
+
+MVC      MVVM
+控制器就是无形手
+
+作用域，有控制器就又作用域
+Scope
+
+过滤器，管道字符，表达式加管道字符
+{{ name|filter}}
+
+ service  对方法的封装 返回的是一个对象
+直接注入服务，把对象塞进去，整个控制器可以复用该方法，面向对象的编程
+
+ 数据请求：
+$http
+$http.get().post().jsonp()
+提交数据.post()，把参数放在请求头
+跨域jsonp()
+get()，直接把参数放在Url
+
+Select
+Ng-repeat
+Li/table/select/option/
+
+接收布尔值：
+Ng-disabled 指令
+Ng-show
+
+事件
+Ng-click
+
+模块化开发：
+一个程序只有一个主模块，团队开发
+表单验证：
+Ng-model  直接获取值
+
+输入验证：
+给一个form表单，ng-show方法
+
+API：
+封装的方法很多：
+
+引人Bootstrap样式
+
+包含：
+Ng-include = ’runoob.html‘
+
+
+动画对性能来说很差
+
+依赖注入：
+需要的时候就注入
+
+路由：
+实现单页应用 SPA
+配合ng-view
+  single page web application
+
+嵌套路由
+
+
+
+
+
+
+
